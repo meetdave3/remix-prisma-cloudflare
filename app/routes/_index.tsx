@@ -46,7 +46,9 @@ export default function Index() {
 
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
-      <h1>Remix Cloudflare + Prisma @ Edge</h1>
+      <h1>Database access on the Edge with Remix, Cloudflare workers & Prisma Data Proxy</h1>
+
+      <h2>Query info (withAccelerate):</h2>
       <ul>
         Cache Status: 
         {props.info?.cacheStatus}
